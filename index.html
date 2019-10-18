@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Listas Enlazadas</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Inventario</h1>
+  <form action="" id="form">
+    <h2>Agregar Producto</h2>
+
+    <label for="codigo">Codigo: </label>
+    <input type="number" id="codigo" required placeholder="Type here"><br>
+
+    <label for="nombre">Nombre: </label>
+    <input type="text" id="nombre" required placeholder="Type here"><br>
+
+    <label for="precio">Precio: </label>
+    <input type="number" id="precio" required placeholder="Type here"><br>
+
+    <label for="cantidad">Cantidad: </label>
+    <input type="number" id="cantidad" required placeholder="Type here"><br>
+
+    <label for="descripcion">Descripcion: </label>
+    <input type="text" id="descripcion" required placeholder="Type here"><br>
+
+    <button type="button" id="btnAdd">Agregar Producto</button>
+    <button type="button" id="btnIn">Invertir</button>
+  </form> <br>
+  <div class="insertados" id="insertados">
+  </div>
+  <hr>
+  <form>
+    <label for="borrar">Introduzca el codigo a borrar: </label>
+    <input type="number" id="borrar" required placeholder="Type here"><br>
+    <button type="button" id="btnBorrar">Borrar Producto</button>
+  </form>
+  <hr>
+  <form action="" id="form">
+    <h2>Editar Producto</h2>
+    <label for="antCodigo">Codigo: </label>
+    <input type="number" id="antCodigo" required placeholder="Type here"><br>
+
+    <label for="newNombre">Nuevo Nombre: </label>
+    <input type="text" id="newNombre" required placeholder="Type here"><br>
+
+    <label for="newPrecio">Nuevo Precio: </label>
+    <input type="number" id="newPrecio" required placeholder="Type here"><br>
+
+    <label for="newCantidad">Nuevo Cantidad: </label>
+    <input type="number" id="newCantidad" required placeholder="Type here"><br>
+
+    <label for="newDescripcion">Nuevo Descripcion: </label>
+    <input type="text" id="newDescripcion" required placeholder="Type here"><br>
+
+    <button type="button" id="btnAct">Editar Producto</button>
+  </form> <br>
+  <hr>
+  <form>
+    <label for="buscar">buscar por codigo: </label>
+    <input type="number" id="buscar" required placeholder="Type here"><br>
+    <button type="button" id="btnBuscar">Buscar Producto</button>
+  </form>
+  <div id="busqueda" class="insertados"></div>
+</body>
+<script src="main.js" type="module"></script>
+
+</html>
+</body>
+</html>
